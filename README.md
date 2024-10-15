@@ -1,6 +1,6 @@
 Real Estate Project
 
-Here is the complete file structure for the Real Estate Project using React and Redux Toolkit with filtering and state management.
+Here is the complete file structure for the Real Estate Project using ( React and Redux Toolkit with filtering and state management) .
 
 1. Redux Store Setup:
 
