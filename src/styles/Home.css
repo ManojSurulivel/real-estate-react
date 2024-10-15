@@ -1,0 +1,47 @@
+/* Container for Home Page */
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f7f9fb;
+    min-height: calc(100vh - 60px);  /* Subtract the navbar height */
+  }
+  
+  /* Sidebar for the Image */
+  .home-sidebar {
+    width: 30%;
+    background-color: #ffffff;
+    border-right: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for the Sidebar Image */
+  .home-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  /* Main Content Section */
+  .home-content {
+    width: 65%;
+    padding: 0 20px;
+  }
+  
+  .home-content h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
